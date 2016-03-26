@@ -15,6 +15,7 @@
 		182394131CA65B7A0025B38C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182394111CA65B7A0025B38C /* LaunchScreen.storyboard */; };
 		1823941E1CA65B7A0025B38C /* fuckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1823941D1CA65B7A0025B38C /* fuckTests.m */; };
 		182394291CA65B7A0025B38C /* fuckUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182394281CA65B7A0025B38C /* fuckUITests.m */; };
+		182394381CA65DC00025B38C /* modek.m in Sources */ = {isa = PBXBuildFile; fileRef = 182394371CA65DC00025B38C /* modek.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		182394241CA65B7A0025B38C /* fuckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fuckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		182394281CA65B7A0025B38C /* fuckUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fuckUITests.m; sourceTree = "<group>"; };
 		1823942A1CA65B7A0025B38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182394361CA65DC00025B38C /* modek.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modek.h; sourceTree = "<group>"; };
+		182394371CA65DC00025B38C /* modek.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = modek.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				182394071CA65B7A0025B38C /* AppDelegate.m */,
 				182394091CA65B7A0025B38C /* ViewController.h */,
 				1823940A1CA65B7A0025B38C /* ViewController.m */,
+				182394361CA65DC00025B38C /* modek.h */,
+				182394371CA65DC00025B38C /* modek.m */,
 				1823940C1CA65B7A0025B38C /* Main.storyboard */,
 				1823940F1CA65B7A0025B38C /* Assets.xcassets */,
 				182394111CA65B7A0025B38C /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				1823940B1CA65B7A0025B38C /* ViewController.m in Sources */,
 				182394081CA65B7A0025B38C /* AppDelegate.m in Sources */,
+				182394381CA65DC00025B38C /* modek.m in Sources */,
 				182394051CA65B7A0025B38C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +504,7 @@
 				1823942F1CA65B7A0025B38C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		182394301CA65B7A0025B38C /* Build configuration list for PBXNativeTarget "fuckTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				182394321CA65B7A0025B38C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		182394331CA65B7A0025B38C /* Build configuration list for PBXNativeTarget "fuckUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				182394351CA65B7A0025B38C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
